@@ -285,11 +285,28 @@ footer {
 .bast-filter-cont {
   padding: 10px;
   opacity: 0;
-  transform: translatey(40px);
-  animation: appear 0.5s ease-out forwards;
+  transform: translateY(40px);
+  animation: appear 1s ease forwards;
   backdrop-filter: blur(5px);
 }
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
 
+.bast-filter-cont:nth-child(2) {
+  animation-delay: 0.4s;
+}
+.bast-filter-cont:nth-child(3) {
+  animation-delay: 0.7s;
+}
+.bast-filter-cont:nth-child(4) {
+  animation-delay: 0.9s;
+}
 .bastille-inner h3 {
   color: #616161;
   font-size: 20px;
