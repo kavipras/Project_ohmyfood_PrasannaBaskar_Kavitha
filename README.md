@@ -1,1 +1,1 @@
-https://kavipras.github.io/Project_ohmyfood_PrasannaBaskar_Kavitha/
+https://kavipras.github.io/ohmyfood/
